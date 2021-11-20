@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.outer {
+  height: 2rem;
+  position: relative;
+  background-color: #ebeaea;
+  border-radius: 1.6rem;
+  padding: 0.8rem;
+  margin: 0.6rem;
+  box-shadow: inset 0 -1px 1px rgba(255, 254, 254, 0.185);
+}
+
+.outer > span {
+  display: block;
+  height: 100%;
+  width: 50%;
+  border-radius: 0.8rem;
+  text-align: end;
+}
+
+.outer .percent {
+  color: #646465;
+  font-weight: bolder;
+  font-size: 1.6rem;
+  padding-right: 0.6rem;
+  vertical-align: middle;
+}
+
+.green > span {
+  background: repeating-linear-gradient(
+    -45deg,
+    #49e956,
+    #49e956 4px,
+    #51d66e 4px,
+    #51d66e 10px
+  );
+}
+
+.red > span {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fe8e85,
+    #fe8e85 4px,
+    #fe9b8c 4px,
+    #fe9b8c 10px
+  );
+}
+
+.white > span {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fefefe,
+    #fefefe 4px,
+    #fffefe 4px,
+    #fffefe 10px
+  );
+}
+
+.blue > span {
+  background: repeating-linear-gradient(
+    -45deg,
+    #a8d7f3,
+    #a8d7f3 4px,
+    #8fc9f5 4px,
+    #8fc9f5 10px
+  );
+}
+
+.orange > span {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fddf8e,
+    #fddf8e 4px,
+    #ffce57 4px,
+    #ffce57 10px
+  );
+}
+
+.button {
+  width: max-content;
+  margin: 0 auto;
+  background-color: #1d7cc5;
+  color: #ffffff;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
