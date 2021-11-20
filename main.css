@@ -70,3 +70,15 @@
     #ffce57 10px
   );
 }
+
+.button {
+  width: max-content;
+  margin: 0 auto;
+  background-color: #1d7cc5;
+  color: #ffffff;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
