@@ -1,4 +1,6 @@
 # Multi-color-progress-bar
+Demo http://www.emanuel-okello.me/Multi-color-progress-bar/
+
 ## Requirements
 1. Should be as close as possible to the provided design.
 
