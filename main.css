@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.outer {
+  height: 2rem;
+  position: relative;
+  background-color: #555555;
+  border-radius: 1.6rem;
+  padding: 0.8rem;
+  margin: 0.6rem;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
